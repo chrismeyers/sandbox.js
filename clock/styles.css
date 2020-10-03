@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*:focus {
+  outline: none;
+}
+
+#root {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#clock {
+  font-size: 5rem;
+}
+
+#controls {
+  margin-top: 40px;
+}
+
+#locale {
+  font-size: large;
+  margin-right: 15px;
+}
+
+select {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
