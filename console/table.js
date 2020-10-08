@@ -3,8 +3,8 @@ const got = require('got');
 
 (async () => {
   try {
-    const response = await got('https://jsonplaceholder.typicode.com/users');
-    console.table(JSON.parse(response.body), [
+    const users = await got('https://jsonplaceholder.typicode.com/users');
+    console.table(JSON.parse(users.body), [
       'id',
       'name',
       'username',
@@ -12,6 +12,9 @@ const got = require('got');
       'phone',
       'website',
     ]);
+
+    const todo = await got('https://jsonplaceholder.typicode.com/todos/1');
+    console.table(JSON.parse(todo.body));
   } catch (error) {
     console.log(error);
   }
