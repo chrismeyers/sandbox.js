@@ -1,7 +1,10 @@
-/* eslint-disable import/extensions */
-/* eslint-disable no-console */
-import area, { circumference } from './circle.js';
+import shape, { diameter, area, circumference } from './circle.js';
 
-const radius = 3;
-console.log(`Circle radius = ${radius}, area = ${area(3)}`);
-console.log(`Circle radius = ${radius}, circumference = ${circumference(3)}`);
+const r = 3;
+console.table({
+  shape,
+  radius: r,
+  diameter: diameter(r),
+  area: area(r),
+  circumference: circumference(r),
+});
