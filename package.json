@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Collection of scripts and programs to test ideas",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint **/*.*js || true"
   },
   "author": "",
   "license": "ISC",
