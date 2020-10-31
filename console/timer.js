@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 console.time('Single');
 setTimeout(() => {
   console.timeEnd('Single');

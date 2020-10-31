@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 const got = require('got');
 
 (async () => {
