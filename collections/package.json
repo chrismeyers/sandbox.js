@@ -1,0 +1,12 @@
+{
+  "name": "collections",
+  "version": "1.0.0",
+  "description": "",
+  "main": "destructure.js",
+  "scripts": {
+    "start": "NODE_ENV=development node destructure.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

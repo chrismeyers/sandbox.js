@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-require('dotenv').config();
 const assert = require('assert');
 
 const objectTests = () => {
@@ -78,6 +76,7 @@ try {
   objectTests();
   arrayTests();
 } catch (error) {
+  /* eslint-disable-next-line no-console */
   console.error(error.stack);
   process.exit(1);
 }
